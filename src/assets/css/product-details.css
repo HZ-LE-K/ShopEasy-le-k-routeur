@@ -1,0 +1,16 @@
+.card {
+  border-radius: 20px;
+}
+
+.card img {
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.card h2 {
+  color: #243f2a;
+}
+
+.card p {
+  font-size: 1.05rem;
+}

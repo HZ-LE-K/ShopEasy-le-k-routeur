@@ -1,0 +1,22 @@
+
+
+.form-control,
+.form-select{
+  border:2px solid #81b0e0;
+}
+
+.form-control:focus,
+.form-select:focus{
+  border-color:#197091;
+  box-shadow:none;
+}
+
+.alert-info{
+  background:#81b0e0;
+  border:none;
+}
+
+.alert-danger{
+  border:none;
+}
+

@@ -1,0 +1,58 @@
+:root {
+  --primary-light: #cdd5e7;
+  --secondary-light: #81b0e0;
+  --neutral-gray: #8d9191;
+  --primary-accent: #197091;
+  --secondary-accent: #5a6053;
+  --dark-color: #243f2a;
+}
+
+body {
+  background-color: var(--primary-light);
+  color: var(--dark-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem 0;
+}
+
+/* Boutons personnalisés */
+
+.btn-shop {
+  background-color: var(--primary-accent);
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-shop:hover {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+/* Titres */
+
+.section-title {
+  color: var(--dark-color);
+  font-weight: 700;
+}
+
+/* Cartes */
+
+.custom-card {
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}

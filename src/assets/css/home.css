@@ -1,0 +1,15 @@
+
+
+.hero {
+    min-height: 500px;
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+}
+
+.product-card {
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}

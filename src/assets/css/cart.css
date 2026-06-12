@@ -1,0 +1,12 @@
+.card img {
+  max-height: 100px;
+  object-fit: contain;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.alert-warning {
+  border: none;
+}
